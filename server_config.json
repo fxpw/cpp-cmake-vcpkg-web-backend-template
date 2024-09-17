@@ -1,0 +1,15 @@
+{
+	"listeners": [
+		{
+			"address": "0.0.0.0",
+			"port": 5000,
+			"https": false
+		}
+	],
+	"app": {
+		"number_of_threads": 6,
+		"server_header_field": ""
+	},
+	"logpath": "logs",
+	"loglevel": "info"
+}

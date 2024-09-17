@@ -1,6 +1,8 @@
 {
 	"dependencies": [
 		"curl",
-		"openssl"
+		"openssl",
+		"fmt",
+		"drogon"
 	]
 }
