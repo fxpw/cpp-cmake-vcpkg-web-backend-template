@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
     gcc \
     g++ \
     cmake \
+    mysql-client \
     git \
 	pkg-config \
 	linux-libc-dev \

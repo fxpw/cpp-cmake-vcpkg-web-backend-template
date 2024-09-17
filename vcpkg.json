@@ -3,6 +3,10 @@
 		"curl",
 		"openssl",
 		"fmt",
-		"drogon"
+		{
+			"name": "drogon",
+			"features":["mysql"],
+			"platform": "linux"
+		}
 	]
 }

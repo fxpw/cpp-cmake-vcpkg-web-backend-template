@@ -21,9 +21,10 @@ add_executable(${PROJECT_NAME} main.cpp ${SOURCES})
 
 target_include_directories(${PROJECT_NAME} PRIVATE vcpkg_installed/${VCPKG_TARGET_TRIPLET}/include)
 
+find_package(fmt REQUIRED)
 find_package(CURL REQUIRED)
 find_package(OpenSSL REQUIRED)
 find_package(Drogon CONFIG REQUIRED)
-target_link_libraries(${PROJECT_NAME} PRIVATE CURL::libcurl OpenSSL::SSL OpenSSL::Crypto Drogon::Drogon)
+target_link_libraries(${PROJECT_NAME} PRIVATE CURL::libcurl fmt::fmt OpenSSL::SSL OpenSSL::Crypto Drogon::Drogon)
 
 

@@ -10,7 +10,6 @@
             ],
             "group": {
                 "kind": "build", // Группа задач
-                "isDefault": true // Задача по умолчанию
             },
             "problemMatcher": ["$gcc"], // Устанавливаем matcher для обнаружения ошибок
             "presentation": {

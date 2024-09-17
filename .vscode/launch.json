@@ -19,7 +19,6 @@
 					"ignoreFailures": true
 				}
 			],
-			"preLaunchTask": "make_pre_build_debug",
 		},
 		{
 			"name": "Run",
@@ -39,7 +38,6 @@
 					"ignoreFailures": true
 				}
 			],
-			"preLaunchTask": "make_pre_build_release",
 		}
 	]
 }

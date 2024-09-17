@@ -20,14 +20,14 @@ services:
       retries: 3
       timeout: 5s
 
-  cpp20-cmake-vcpkg-web-backend-template:
-    container_name: cpp20-cmake-vcpkg-web-backend-template
-    build:
-      context: .
-    volumes:
-      - ./:/app
-    ports:
-      - '${BACKEND_PORT:-5000}:5000'
+  # cpp20-cmake-vcpkg-web-backend-template:
+  #   container_name: cpp20-cmake-vcpkg-web-backend-template
+  #   build:
+  #     context: .
+  #   volumes:
+  #     - ./:/app
+  #   ports:
+  #     - '${BACKEND_PORT:-5000}:5000'
 
 volumes:
   mysql_backend_template_db_local:
