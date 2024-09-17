@@ -1,0 +1,15 @@
+{
+
+    "todo-tree.tree.showCountsInTree": true,
+	"C_Cpp.default.includePath": [
+		"${default}",
+		"${workspaceFolder}/vcpkg_installed/x64-linux/include"
+	],
+	"files.associations": {
+		"*.embeddedhtml": "html",
+		"iostream": "cpp",
+		"*.tcc": "cpp",
+		"string": "cpp"
+	},
+	"C_Cpp.default.compilerPath": "/usr/bin/gcc"
+}
